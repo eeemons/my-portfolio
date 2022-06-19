@@ -1,3 +1,20 @@
+# Portfolio website for Maksudul Haque
+
+This is a portfolio website for Maksudul Haque. Learning and building at the same time. I have been using basic css and react to build
+this portfolio website.
+
+# Suggested setup if you want to run this and check it out yourself
+
+    VsCode
+    Simple React Snippets (VsCode extension)
+    Prettier (VsCode extension)
+
+# To Run this
+
+    Clone this repo
+    Run $ 'npm install'
+    Then run $ 'npm start' to start the development server
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
