@@ -1,24 +1,69 @@
-.container {
+.cardContainer {
+  background: #f2f2f2;
+  cursor: pointer;
+  width: 100vw;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   align-content: center;
-  border: solid 1px black;
-  height: 100vh;
-  margin: 0;
-  padding: 0;
 }
-.card {
-  width: 250px;
-  height: 400px;
-  border: solid 1px black;
-  border-radius: 30px;
+
+.content {
+  width: 300px;
+  height: max-content;
+  text-align: justify;
+  color: black;
+  padding: 40px;
+  position: absolute;
+}
+
+h1 {
+  font-weight: 900;
   text-align: center;
-  background-color: white;
-  box-shadow: 2px 2px 2px 2px #888888;
 }
-.card h2 {
-  margin: 0;
-  padding: 0;
-  top: 0;
+
+h3 {
+  font-weight: 300;
+}
+
+.flap {
+  width: 100%;
+  height: 100%;
+}
+
+.flap::before {
+  position: absolute;
+  content: "";
+  display: block;
+  text-align: center;
+  height: 100vh;
+  width: 50%;
+  background: url("https://pbs.twimg.com/profile_images/1347260174176710658/2GfSZ1i__400x400.jpg")
+    white;
+  background-position: 100px;
+  background-repeat: no-repeat;
+  transition: 1s;
+}
+
+.flap::after {
+  position: absolute;
+  content: "";
+  text-align: center;
+  height: 100vh;
+  width: 50%;
+  right: 0;
+  background: url("https://pbs.twimg.com/profile_images/1347260174176710658/2GfSZ1i__400x400.jpg")
+    white;
+  background-position: -200px;
+  background-repeat: no-repeat;
+  transition: 1s;
+}
+
+.cardContainer:hover .flap::after {
+  transform: translatex(50vw);
+}
+
+.cardContainer:hover .flap::before {
+  transform: translatex(-50vw);
 }
