@@ -1,0 +1,11 @@
+.education {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.education p,
+h2,
+h3 {
+  padding: 0;
+  margin: 0;
+}
