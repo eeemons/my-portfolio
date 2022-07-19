@@ -27,7 +27,7 @@ function startingCard() {
             <img src={reactIcon} alt="react"></img>
           </div>
           <br></br>
-          <Link to={"/home"}>Learn</Link>
+          <Link to={"/home"}>Learn More</Link>
         </div>
         <div className={style.flap}></div>
       </div>
