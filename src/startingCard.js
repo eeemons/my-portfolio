@@ -1,5 +1,7 @@
 import style from "./startingCard.module.css";
 
+import { Link } from "react-router-dom";
+
 import cssIcon from "./icons/css.png";
 import htmlIcon from "./icons/html.png";
 import vueIcon from "./icons/vue.png";
@@ -25,7 +27,7 @@ function startingCard() {
             <img src={reactIcon} alt="react"></img>
           </div>
           <br></br>
-          <a href="/home">Learn more</a>
+          <Link to={"/home"}>Learn</Link>
         </div>
         <div className={style.flap}></div>
       </div>

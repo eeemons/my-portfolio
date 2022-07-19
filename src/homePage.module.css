@@ -3,9 +3,11 @@
   height: 100vh;
   display: flex;
   justify-content: center;
+  background-image: url("./icons/background.jpg");
 }
 .mainContent {
   width: 60%;
+  max-width: 450px;
   height: 100%;
 }
 article {
