@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&family=Fira+Sans+Condensed:wght@100&display=swap");
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Edu NSW ACT Foundation", cursive;
+}
+
+:root {
+  --clr-text: #0e0d08;
+  --clr-button: #fe481c;
+  --clr-button-accent: #5562ff;
+  --clr-side: #ded1c1;
+}
+
+.container {
+  display: flex;
+  /* border: 1px solid green; */
+  justify-content: space-between;
+  margin-left: 100px;
+  margin-right: 10px;
+  margin-top: 2em;
+  padding-bottom: 1em;
+  border-bottom: 1px solid var(--clr-side);
+  overflow: hidden;
+}
+.navName {
+  display: flex;
+  width: max-content;
+  /* border: 1px solid#fe481c; */
+}
+.name {
+  color: var(--clr-text);
+}
+.dot {
+  color: var(--clr-button);
+}
+
+.links {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-around;
+  max-width: 400px;
+  height: fit-content;
+}
+a {
+  text-decoration: none;
+  color: var(--clr-text);
+  font-weight: 600;
+  width: fit-content;
+  height: fit-content;
+}
+button {
+  background-color: #ffff;
+  border: 1px solid black;
+  font-weight: 700;
+  width: 100px;
+  height: 30px;
+}
