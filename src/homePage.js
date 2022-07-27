@@ -66,6 +66,7 @@ function homePage() {
         </div>
         <div className={style.column}>
           <img src={UserDummy} alt="The user that created the website" />
+          <input placeholder={"Hello There"}></input>
         </div>
       </div>
     </div>

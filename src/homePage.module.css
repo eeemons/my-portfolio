@@ -9,12 +9,21 @@
   /* border: 1px solid black; */
   width: 50%;
   position: relative;
+  min-height: 800px;
+  max-width: auto;
 }
 .column img {
-  margin-top: 1px;
-  width: 100%;
+  width: auto;
   height: 100%;
-  max-height: 800px;
+}
+.column input {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  width: 150px;
+  background: white;
+  border-radius: 10px;
+  text-align: center;
 }
 .greetings {
   font-size: 3rem;
