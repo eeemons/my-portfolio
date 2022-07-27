@@ -55,7 +55,7 @@ function homePage() {
               <p>Statistics 2022</p>
               <button>Know More</button>
             </div>
-            <div className={style.footerColumn}>
+            <div className={style.anotherColumn}>
               <ul>
                 <li>Website Design</li>
                 <li>Mobile App Design</li>
