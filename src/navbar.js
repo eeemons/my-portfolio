@@ -7,7 +7,7 @@ function Navbar() {
         <h2 className={style.dot}>.</h2>
       </section>
       <div className={style.links}>
-        <a href="/home">Home</a>
+        <a href="/">Home</a>
         <a href="/">Education</a>
         <a href="/">About</a>
         <a href="/">Projects</a>
